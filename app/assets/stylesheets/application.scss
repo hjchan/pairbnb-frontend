@@ -154,3 +154,23 @@ body {
     }
   }
 }
+
+ @media only screen and (max-width: 400px) {
+  .hero-header {
+    .main-text {
+      font-size: 40px;
+    }
+    .sub-text {
+      font-size: 20px;
+    }
+  }
+  .para-one {
+    width: 100%;
+  }
+  .para-two{
+    width: 100%;
+  }
+  body nav.menu ul.active {
+    display: inline-grid;
+  }
+ }
